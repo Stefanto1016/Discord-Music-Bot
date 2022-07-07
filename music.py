@@ -11,8 +11,8 @@ FFMPEG_OPTIONS = {'before_options': '-reconnect 1 -reconnect_streamed 1 -reconne
 async def voice_check(self, ctx, command=None):
   # User must be in a voice channel to use commands
   if ctx.author.voice is None:
-      await ctx.send("Need to be in voice channel")
-      return False
+    await ctx.send("Need to be in voice channel")
+    return False
 
   # Checks if bot is in a voice channel
   if ctx.voice_client is None:
