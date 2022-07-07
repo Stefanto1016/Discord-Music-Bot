@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import music
 
+bot = commands.Bot(command_prefix='$', help_command=None)
+
 @bot.event
 async def on_message(message):
   # Ignore messages sent from the bot itself
