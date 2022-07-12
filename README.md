@@ -1,4 +1,4 @@
-# Discord-Music-Bot
+# Discord Music Bot
 A Discord music bot implemented using the discord.py API wrapper that can play music when provided a Youtube URL.
 The current implementation of the bot supports single-use in any one Discord server.
 
